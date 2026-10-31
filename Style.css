@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+* p{
+    text-align: justify;
+    text-justify: auto;
+}
+
+*::selection{
+   color: #00e676;
+   background-color:#015252 ;
+}
+
+body {
+    background-color: #008b8b;
+    background-image: url(image.png);
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;  
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px 0 0 0;
+}
+
+.header-box {
+    background-color: #00383bb3;
+    padding: 15px 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.header-box h1 {
+    color: #00e676;
+    font-size: 24px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex: 1;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #00383bb3;
+    border-radius: 20px;
+    padding: 25px;
+    flex: 1;
+    min-width: 280px;
+}
+
+#lefth2{
+    justify-self: left;
+}
+
+.card h2 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+    justify-self: center;
+}
+
+.card p {
+    color: #b2dfdb;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-texto {
+    flex: 1;
+}
+
+.card-texto h2 {
+    justify-self: left;
+}
+
+.card img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.info-data {
+    margin-top: 15px;
+    color: #00e676;
+}
+
+.galeria-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.galeria-grid img {
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    margin-top: 40px;
+     background-color: #00383bb3;
+    border-radius: 15px 15px 0 0;
+    padding: 20px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-link {
+    color: #b2dfdb;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-link:hover {
+    color: #77cbc4;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-link:active {
+    color: #42d2c6;
+    text-decoration: none;
+    font-size: 16px;
+}
